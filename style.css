@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(246, 211, 228);
+}
+nav{
+    background-color: rgb(255, 255, 255);
+    padding: 6px;
+}
+
+nav ul li{
+    list-style-type: none;
+    padding: 20px;
+    font-family:"Pliant", sans-serif;
+    font-weight: bold;
+    color: rgb(227, 30, 132);
+    
+}
+nav ul{
+    display: flex;
+    justify-content:flex-end;
+    /* padding-right: 140px; */
+    
+}
+.container{
+    margin: auto;
+    width: 80%;
+}
+.hero{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.content{
+    width: 35%;
+    
+}
+img{
+    width: 490px;
+    transform: rotate(15deg);
+}
+h1{
+    transform: scaleY(1.2);
+    line-height: 1.1;
+    /* -webkit-text-stroke: 0.02px rgb(0, 0, 0); */
+    color: rgb(227, 30, 132);
+    font-size: 60px;
+    font-family: "Nosifer", sans-serif;
+    margin-bottom: 15px;
+    /* font-family: "Cherry Bomb One", system-ui; */
+    /* font-family: "Knewave", system-ui; */
+    
+}
+.hero p{
+    font-family: "Pliant", sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding: 7px 70px;
+    border: 2px solid black;
+    border-radius: 13px;
+    background-color:  rgb(227, 30, 132);
+    color: white;
+    font-size: 17px;
+    
+}
+
+/* tips and learning */
+/* Navbar → Flexbox
+Container → width + margin auto
+Hero → Flexbox
+Avoiding giant random gaps
+Thinking about proportions */
+/* 
+.content{
+    width: 50%;
+    border: 2px solid red;
+}
+
+img{
+    border: 2px solid blue;
+} */
