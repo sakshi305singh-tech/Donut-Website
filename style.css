@@ -1,51 +1,58 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-body{
+
+body {
     background-color: rgb(246, 211, 228);
 }
-nav{
-    background-color: rgb(255, 255, 255);
+
+nav {
+    background-color: #FFF1E6;
     padding: 6px;
 }
 
-nav ul li{
+nav ul li {
     list-style-type: none;
     padding: 20px;
-    font-family:"Pliant", sans-serif;
+    font-family: "Pliant", sans-serif;
     font-weight: bold;
     color: rgb(227, 30, 132);
-    
+
 }
-nav ul{
+
+nav ul {
     display: flex;
-    justify-content:flex-end;
+    justify-content: flex-end;
     /* padding-right: 140px; */
-    
+
 }
-.container{
+
+.container {
     margin: auto;
     width: 80%;
 }
-.hero{
-    
+
+.hero {
+
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 
 }
 
-.content{
+.content {
     width: 35%;
-    
+
 }
-img{
+
+.donut_img img {
     width: 490px;
     transform: rotate(15deg);
 }
-h1{
+
+h1 {
     transform: scaleY(1.2);
     line-height: 1.1;
     /* -webkit-text-stroke: 0.02px rgb(0, 0, 0); */
@@ -55,9 +62,10 @@ h1{
     margin-bottom: 15px;
     /* font-family: "Cherry Bomb One", system-ui; */
     /* font-family: "Knewave", system-ui; */
-    
+
 }
-.hero p{
+
+.hero p {
     font-family: "Pliant", sans-serif;
     font-size: 20px;
     margin-bottom: 10px;
@@ -67,24 +75,70 @@ h1{
     padding: 7px 70px;
     border: 2px solid black;
     border-radius: 13px;
-    background-color:  rgb(227, 30, 132);
+    background-color: rgb(83, 33, 30);
     color: white;
     font-size: 17px;
-    
+
 }
 
-/* tips and learning */
-/* Navbar → Flexbox
-Container → width + margin auto
-Hero → Flexbox
-Avoiding giant random gaps
-Thinking about proportions */
-/* 
-.content{
-    width: 50%;
-    border: 2px solid red;
+.wave svg {
+    transform: scaleX(-1);
+    display: block;
+    width: 100%;
+}
+.menu-header h2{
+    font-size: 30px;
+    margin-bottom: 10px;
 }
 
-img{
-    border: 2px solid blue;
-} */
+.menu-header {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: "Pliant", sans-serif;
+    color:  rgb(83, 33, 30);
+
+}
+
+.menu-section {
+    background-color: #FFF1E6;
+    padding: 80px 0;
+}
+.menu-grid{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+.menu-items img{
+    width:100%;    /*making the images 100% of their parents width*/
+    aspect-ratio: 1 / 1.2;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.menu-info{
+    display: flex;
+    justify-content:space-between;
+}
+.menu-items button{
+    display: block;
+    margin: 15px auto 0;
+    width: 100%;
+}
+.menu-items{
+    /* background-color: rgba(175, 117, 59, 0.395); */
+    background-image: linear-gradient(to top, rgba(209, 154, 106, 0.268),rgba(174, 96, 18, 0.504));
+    padding: 20px;
+    border-radius: 20px;
+}
+.menu-items{
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.79);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.menu-items button:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+    background-color: rgba(111, 41, 37, 0.908);
+}
