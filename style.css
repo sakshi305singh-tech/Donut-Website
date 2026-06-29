@@ -130,8 +130,6 @@ h1 {
     background-image: linear-gradient(to top, rgba(209, 154, 106, 0.268),rgba(174, 96, 18, 0.504));
     padding: 20px;
     border-radius: 20px;
-}
-.menu-items{
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.79);
     display: flex;
     flex-direction: column;
@@ -142,3 +140,20 @@ h1 {
     cursor: pointer;
     background-color: rgba(111, 41, 37, 0.908);
 }
+.about-section{
+    background-color: rgb(83, 33, 30);
+}
+.about-container{
+    display: flex; 
+}
+.about-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(246, 211, 228);
+    
+
+}
+about-image 
+
